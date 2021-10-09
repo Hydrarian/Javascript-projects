@@ -1,0 +1,38 @@
+body {
+    background-image: url("images/background.jpg");
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    margin:0;
+  }
+
+  h1 {
+      text-align: center;
+      text-decoration: solid;
+      text-shadow: 180px;
+      color: brown;
+  }
+
+  .container div{
+      display: flex;
+      /* background-color: brown; */
+      /* text-align: center; */
+      margin: auto;
+      float: left;
+      clear: none;
+      /* padding-right: 30px; */
+      padding: 50px;
+      font-size: 50px;
+      /* position: fixed; */
+      top: 50%;
+      left: 50%;
+     
+  }
+
+
