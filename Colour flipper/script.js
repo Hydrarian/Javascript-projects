@@ -12,6 +12,7 @@ button.addEventListener ("click", function() {
   var newColour=generateRandomColour();
   button.style.backgroundColor=newColour;
   document.body.style.backgroundColor=newColour;
+  button.innerHTML = "Cambia colore " + newColour;
 });
 
 function generateRandomColour() {

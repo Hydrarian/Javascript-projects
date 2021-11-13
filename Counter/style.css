@@ -1,0 +1,30 @@
+#pulsanti,div,h1 {
+    text-align: center; 
+}
+
+#pulsanti{
+    align-content: center;
+    display: inline-flexbox;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#numero {
+    font-size: 100px;
+    color: yellowgreen;
+}
+
+.buttons {
+    font-size: 50px;
+    border-radius: 15px;
+    background-color: white;
+    margin: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-width: medium;
+}
+

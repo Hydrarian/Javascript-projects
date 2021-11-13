@@ -7,4 +7,20 @@ button {
     height: 60px;
     width: 1130px;
     align-items: center;
+    border-style: double;
+    border-radius: 10px;
+    align-self: center;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    text-decoration: double;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: double;
+    font-weight: bold;
 }
