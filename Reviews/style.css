@@ -1,0 +1,28 @@
+#titolo {
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+}
+
+#immagine,#nome,#descrizione,#navbar,#button_space{
+    align-content: center;
+    text-align: center;
+}
+
+.box_recensioni {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    display: inline-block; /*ridimensiona in base al contenuto*/
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center; /* !!! */
+}
+
+.immagine { 
+    border-radius: 50%;
+}
